@@ -8,15 +8,12 @@
 
 
     <script type="text/javascript">
-
-    function myFunction() {
-      var name = prompt("Koks jūsų vardas?");
-      var surname = prompt("Kokia jūsų pavardė?");
-      var atsakymas = name + " " + surname + " ką tik prisijungė.";
-      console.log(atsakymas);
+// Parašykite funkciją, kuriai padavus argumentus name ir surname funkcija išspausdintų konsolėje pranešimą. Pvz. jeigu name yra Jonas, o surname yra Jonaitis, tai funkcija turi išspausdinti "Jonas Jonaitis kątik prisijungė".
+    function notifySignIn(arg1, arg2) {
+      console.log(arg1 + " " + arg2 + " ką tik prisijungė.");
     }
 
-    myFunction();
+    notifySignIn("Jonas", "Jonaitis");
 
     </script>
   </body>

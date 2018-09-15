@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style media="screen">
+      table {
+        font-family: "Courier New", Courier, monospace;
+        font-size: 12px;
+      }
+
+      * {
+        padding: 0px;
+        margin-top: 0px;
+      }
+    </style>
+  </head>
+  <body>
+
+
+    <script type="text/javascript" src="js/mano.js">
+
+    </script>
+    <script type="text/javascript">
+//  Parašykite funkciją, kuri spausdina prekių sąrašą konsolėje formatu pvz.:
+
+// 			#1
+// 			Prekė: Atsuktuvas
+// 			Pagaminimo data: 2018
+// 			Spava: geltona
+// 			Kaina: 5 EUR
+//
+// 			#2
+// 			Prekė: Raktas
+// 			Pagaminimo data: 2018
+// 			Rankenos spava: pilka
+// 			Kaina: 2 EUR
+//
+//
+// Prekės (objektai) yra sudėti į objektų masyvą. Objektų masyvas paduodamas funkcijai kaip argumentas.
+        var goodsList = [
+          {first:"#1",second:"Prekė: Atsuktuvas", third:"Pagaminimo data: 2018", fourth:"Spalva: geltona", fifth:"Kaina: 5 EUR"},
+          {first:"#2",second:"Raktas: Atsuktuvas", third:"Pagaminimo data: 2018", fourth:"Rankenos spalva: pilka", fifth:"Kaina: 2 EUR"},
+
+        ];
+          printArrayToList(goodsList);
+
+
+
+
+    </script>
+
+  </body>
+</html>

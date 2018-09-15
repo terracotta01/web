@@ -8,14 +8,18 @@
 
 
     <script type="text/javascript">
-    // pasiklaust ar cia funkcija kurti ar while loop tinka
-    var text = "";
-    var i = 0;
-    while (i < 5) {
-      text += "<br/>Asta";
-      i++;
+    // Parašykite funkciją, kuri 5 kartus išspausdintų jūsų vardą.
+
+    function printName5times(text) {
+      for (var i = 0; i < 5; i++) {
+        document.write(text + "<br>");
+      }
     }
-    document.write(text);
+
+    printName5times("Asta")
+
+
+
     </script>
   </body>
 </html>

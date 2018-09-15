@@ -11,41 +11,23 @@
 
 
     <script type="text/javascript">
-    var vardas = prompt("iveskite varda", "");
-    var vardai = ["Jonas", "Petras", "Martynas", "Ona", "Urtė", "Ema"];
-      if (vardas=="Jonas") {
-        var jonoVieta = vardai.indexOf("Jonas");
-        var vardaiNauji = vardai.splice(jonoVieta, 1);
-        document.write(vardai);
+
+// Parašykite funkciją, kuriai būtų paduodami du argumentai: masyvas su vardais (pvz. ["Jonas", "Petras", "Martynas", "Ona", "Urtė", "Ema"]) ir vardas iš masyvo kurio nespausdinti. Funkcija turi išspausdinti konsolėje visus vardus išskyrus vardą, kuris nespausdinamas.
+      printArrayWithoutOneElement(["Jonas", "Petras", "Martynas", "Ona", "Urtė", "Ema"], "Jonas")
+
+
+      function printArrayWithoutOneElement(array, arg) {
+        var argPlace = array.indexOf(arg);
+        var newArray = array.splice(argPlace,1);
+        console.log(array);
       }
-      else if (vardas=="Petras") {
-        var petroVieta = vardai.indexOf("Petras");
-        var vardaiNauji = vardai.splice(petroVieta, 1);
-        document.write(vardai);
-      }
-      else if (vardas=="Martynas") {
-        var martynoVieta = vardai.indexOf("Martynas");
-        var vardaiNauji = vardai.splice(martynoVieta, 1);
-        document.write(vardai);
-      }
-      else if (vardas=="Ona") {
-        var onosVieta = vardai.indexOf("Ona");
-        var vardaiNauji = vardai.splice(onosVieta, 1);
-        document.write(vardai);
-      }
-      else if (vardas=="Urtė") {
-        var urtesVieta = vardai.indexOf("Urtė");
-        var vardaiNauji = vardai.splice(urtesVieta, 1);
-        document.write(vardai);
-      }
-      else if (vardas=="Ema") {
-        var emosVieta = vardai.indexOf("Ema");        
-        var vardaiNauji = vardai.splice(emosVieta, 1);
-        document.write(vardai);
-      }
-      else {
-        document.write("Vardas ne is saraso")
-      }
+
+
+
+
+
+
+
 
 
 
