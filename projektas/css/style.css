@@ -19,6 +19,10 @@ p {
   color: #26a69a;
 }
 
+.order_container {
+  padding-top: 30px;
+}
+
 .parallax-container {
   min-height: 380px;
   line-height: 0;
