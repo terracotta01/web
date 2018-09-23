@@ -35,24 +35,18 @@
     float: left;
   }
 
-
   .box1 img{
     position: relative;
-    float: left;
-    width: 300px;
-    height: 300px;
+    width: 100%;
     margin: 20px;
-
   }
-
-
 
   /* Style the Image Used to Trigger the Modal */
   .myImg {
-   border-radius: 5px;
-   cursor: pointer;
-   transition: 0.3s;
-   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+     border-radius: 5px;
+     cursor: pointer;
+     transition: 0.3s;
+     box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
 
   }
 
@@ -60,68 +54,68 @@
 
   /* The Modal (background) */
   .modal {
-   display: none; /* Hidden by default */
-   position: fixed; /* Stay in place */
-   z-index: 1; /* Sit on top */
-   padding-top: 100px; /* Location of the box */
-   left: 0;
-   top: 0;
-   width: 100%; /* Full width */
-   height: 100%; /* Full height */
-   overflow: auto; /* Enable scroll if needed */
-   background-color: rgb(0,0,0); /* Fallback color */
-   background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
-   max-height: 100%;
+     display: none; /* Hidden by default */
+     position: fixed; /* Stay in place */
+     z-index: 1; /* Sit on top */
+     padding-top: 100px; /* Location of the box */
+     left: 0;
+     top: 0;
+     width: 100%; /* Full width */
+     height: 100%; /* Full height */
+     overflow: auto; /* Enable scroll if needed */
+     background-color: rgb(0,0,0); /* Fallback color */
+     background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+     max-height: 100%;
   }
 
   /* Modal Content (Image) */
   .modal-content {
-   margin: auto;
-   display: block;
-   width: 80%;
-   max-width: 700px;
-   max-height: 700px;
+     margin: auto;
+     display: block;
+     width: 80%;
+     max-width: 700px;
+     max-height: 700px;
   }
 
   /* Caption of Modal Image (Image Text) - Same Width as the Image */
   #caption {
-   margin: auto;
-   display: block;
-   width: 80%;
-   max-width: 700px;
-   text-align: center;
-   color: #ccc;
-   padding: 10px 0;
-   height: 150px;
+     margin: auto;
+     display: block;
+     width: 80%;
+     max-width: 700px;
+     text-align: center;
+     color: #ccc;
+     padding: 10px 0;
+     height: 150px;
   }
 
   /* Add Animation - Zoom in the Modal */
   .modal-content, #caption {
-   animation-name: zoom;
-   animation-duration: 0.6s;
+     animation-name: zoom;
+     animation-duration: 0.6s;
   }
 
   @keyframes zoom {
-   from {transform:scale(0)}
-   to {transform:scale(1)}
+     from {transform:scale(0)}
+     to {transform:scale(1)}
   }
 
   /* The Close Button */
   .close {
-   position: absolute;
-   top: 15px;
-   right: 35px;
-   color: #f1f1f1;
-   font-size: 40px;
-   font-weight: bold;
-   transition: 0.3s;
+     position: absolute;
+     top: 15px;
+     right: 35px;
+     color: #f1f1f1;
+     font-size: 40px;
+     font-weight: bold;
+     transition: 0.3s;
   }
 
   .close:hover,
   .close:focus {
-   color: #bbb;
-   text-decoration: none;
-   cursor: pointer;
+     color: #bbb;
+     text-decoration: none;
+     cursor: pointer;
   }
 
   /* 100% Image Width on Smaller Screens */
@@ -129,18 +123,25 @@
    .modal-content {
        width: 100%;
    }
- }
+  }
 
- h4 {
-   margin: 0px;
-   font-size: 1.64rem;
- }
+  h4 {
+     margin: 0px;
+     font-size: 1.64rem;
+  }
 
- .orderInSistemos {
-   padding: 0px;
- }
+  .orderInSistemos {
+    padding: 0px;
+  }
 
+  th{
+    text-align: center;
+  }
 
+  table {
+      margin-right: auto;
+      margin-left: auto;
+  }
   </style>
 </head>
 <body>
@@ -162,7 +163,7 @@
         <li><a href="#apieMus">Apie mus</a></li>
         <li><a href="#kontaktai">Kontaktai</a></li>
       </ul>
-      <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+      <a class="black-text" href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
     </div>
   </nav>
 
@@ -195,59 +196,60 @@
 
         <!-- Modal Content (The Image) -->
         <img class="modal-content" id="img01">
+        <a class="waves-effect waves-light btn" id="previous"><</a>
+        <a class="waves-effect waves-light btn">></a>
 
         <!-- Modal Caption (Image Text) -->
         <div id="caption"></div>
+
       </div>
         <!-- Icon Section -->
 
-        <div class="row">
-          <div class="col s12 center">
-            <h3><i class="mdi-content-send brown-text"></i></h3>
-            <h4>Atliktų darbų su slankiojančiomis sistemomis ir spintų pavyzdžiai </h4>
-          </div>
+      <div class="row">
+        <div class="col s12 center">
+          <br>
+          <h4>Atliktų darbų su slankiojančiomis sistemomis ir spintų pavyzdžiai </h4>
         </div>
+      </div>
 
-      <div class="row" >
-        <div class="col s12 m4" class="eile">
+      <div class="row same" >
+        <div class="col s12 m6 l4">
           <div  class="icon-block">
             <div class="box1">
               <img class="myImg" src="images/sistemos1.jpg" alt="">
             </div>
           </div>
         </div>
-        <div class="col s12 m4">
+        <div class="col s12 m6 l4">
           <div class="icon-block">
             <div class="box1">
               <img class="myImg" src="images/sistemos2.jpg" alt="">
             </div>
           </div>
         </div>
-        <div class="col s12 m4">
+        <div class="col s12 m6 l4">
           <div class="icon-block">
             <div class="box1">
               <img class="myImg" src="images/sistemos3.jpg" alt="">
             </div>
           </div>
         </div>
-      </div>
 
-      <div class="row" >
-        <div class="col s12 m4" class="eile">
+        <div class="col s12 m6 l4">
           <div  class="icon-block">
             <div class="box1">
               <img class="myImg" src="images/sistemos4.jpg" alt="">
             </div>
           </div>
         </div>
-        <div class="col s12 m4">
+        <div class="col s12 m6 l4">
           <div class="icon-block">
             <div class="box1">
               <img class="myImg" src="images/sistemos5.jpg" alt="">
             </div>
           </div>
         </div>
-        <div class="col s12 m4">
+        <div class="col s12 m6 l4">
           <div class="icon-block">
             <div class="box1">
               <img class="myImg" src="images/sistemos6.jpg" alt="">
@@ -255,21 +257,27 @@
           </div>
         </div>
       </div>
-
+      <div class="row">
+        <div class="col s12 center">
+          <table >
+            <tr>
+              <th>Profesionalus projektavimas</th>
+              <th>Nemokamas montavimas</th>
+              <th>Kokybiški ir patogūs baldai</th>
+              <th>Geriausia kaina</th>
+              <th>Nemokamas pristatymas</th>
+            </tr>
+          </table>
+        </div>
+      </div>
     </div>
   </div>
 
-  <!-- Mygtuko užsisakyk konteineris GERAI BUTU PADARYTI KAD SITAS MYGTUKAS VISADA SLINKTU SU VAIZDU-->
-  <div class="order_container orderInSistemos ">
-    <div class="row center">
-      <h4 class="header col s12 light"><b>Norite užsisakyti? O gal turite klausimų?</b></h4>
-    </div>
-    <div class="row center">
-      <a href="uzsakymo_forma.html" id="download-button" class="btn-large waves-effect waves-light btn amber darken-4"><b>Susisiekime</b></a>
-    </div>
+
+  <!-- fixed action button -->
+  <div class="fixed-action-btn susisiekime">
+    <a href="uzsakymo_forma.html" id="download-button" class="btn-large waves-effect waves-light btn amber darken-4"><b>Turite klausimų? Susisiekime</b></a>
   </div>
-
-
 
   <div class="parallax-container valign-wrapper">
     <div class="section no-pad-bot">
@@ -289,8 +297,6 @@
           <!-- GAL CIA GERIAU IDETI LOGOTIPA VIETOJ APRASYMO -->
           <h5 class="black-text" id="apieMus">Apie mus</h5>
           <p class="black-text">Guobos baldai – tai nestandartinių baldų projektavimas ir gamyba pagal individualius užsakymus. Mes gaminame: virtuvės, prieškambario, miegamojo, vonios, svetainės, biuro, vaiko kambario baldus, slankiojančias sistemas ir visus kitus nestandartinius baldus.</p>
-
-
         </div>
         <div class="col l3 s12">
           <h5 class="black-text">Nuorodos</h5>
@@ -309,15 +315,12 @@
             <li><a class="black-text" href="http://www.guobosbaldai.lt">www.guobosbaldai.lt</a></li>
             <li><a class="black-text" href="#!">info@guobosbaldai.lt</a></li>
           </ul>
-          <a class="black-text" href="https://www.facebook.com/Guobos-baldai-246022925538150/">
+          <a class="black-text" href="https://www.facebook.com/Guobos-baldai-246022925538150/" target="_blank">
             <i  class="fa fa-facebook-official" style="font-size:36px"></i>
           </a>
-          <a class="black-text" href="https://twitter.com/">
+          <a class="black-text" href="https://twitter.com/" target="_blank">
             <i class="fa fa-twitter-square" style="font-size:36px"></i>
           </a>
-
-
-
         </div>
       </div>
     </div>
@@ -329,38 +332,35 @@
   </footer>
 
 
-
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script src="js/materialize.js"></script>
   <script src="js/init.js"></script>
   <script type="text/javascript">
+
       $(".myImg").click(function(){
         $("#myModal").css({"display":"block"});
         $("#img01").prop("src", $(this).prop("src"));
-        $("#caption").html($(this).prop("alt"))
-      })
+        $("#caption").html($(this).prop("alt"));
+      });
 
-      $(".close").click(function(){
+
+      // close image by click
+      $("#myModal").click(function(){
         $("#myModal").css({"display":"none"});
-      })
+      });
 
-
-      window.onscroll = function() {myFunction()};
-
-      var header = document.getElementById("navbar-fixed");
-      var sticky = header.offsetTop;
+      // $(".close").click(function(){
+      //   $("#myModal").css({"display":"none"});
+      // })
 
 
 
-      function myFunction() {
-        if (window.pageYOffset > sticky) {
-          header.classList.add("sticky");
-          header.classList.remove("navbar-fixed");
-        } else {
-          header.classList.remove("sticky");
-          header.classList.add("navbar-fixed");
-        }
-      }
+      // floating action button
+
+      $(document).ready(function(){
+        $('.fixed-action-btn').floatingActionButton();
+      });
+
 
   </script>
 
