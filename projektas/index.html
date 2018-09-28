@@ -46,7 +46,7 @@
           <h4 class="header col s12 light"><b>Užsisakyk savo svajonių baldus</b></h5>
         </div>
         <div class="row center">
-          <a href="uzsakymo_forma.html" id="download-button" class="btn-large waves-effect waves-light btn amber darken-4"><b>Užsakyti</b></a>
+          <button id="download-button" class="btn-large waves-effect waves-light btn amber darken-4 modal-trigger orderButton"><b>Užsakyti</b></button>
         </div>
       </div>
         <br><br>
@@ -115,7 +115,44 @@
   </div>
   <!-- fixed action button -->
   <div class="fixed-action-btn susisiekime">
-    <a href="uzsakymo_forma.html" id="download-button" class="btn-large waves-effect waves-light btn amber darken-4 orderButton"><b>Turite klausimų? Susisiekime</b></a>
+    <button  id="download-button" class="btn-large waves-effect waves-light btn amber darken-4 modal-trigger orderButton" data-target="modal1"><b>Turite klausimų? Susisiekime</b></button>
+  </div>
+  <!-- iššokanti forma -->
+
+  <!-- Modal Structure -->
+  <div id="modal1" class="modal">
+    <div class="modal-content white" id="formContent" >
+      <!-- The Close Button -->
+        <span class="close">&times;</span>
+      <div class="row center black-text text-darken-2">
+        <h5><b>Užsakymo forma</b></h5>
+      </div>
+      <div class="row">
+        <form class="col s12 forma">
+          <div class="row modal-form-row">
+            <div class="input-field col s12">
+              <input id="name" type="text" class="validate">
+              <label for="name">Įrašykite savo vardą</label>
+            </div>
+          </div>
+          <div class="row">
+            <div class="input-field col s12">
+              <input id="phoneNumber" type="text" class="validate">
+              <label for="phoneNumber">Įrašykite savo telefono numerį</label>
+            </div>
+          </div>
+          <div class="row">
+            <div class="input-field col s12">
+              <textarea id="description" type="text" class="materialize-textarea validate"></textarea>
+              <label for="description">Aprašykite savo svajonių baldą, o mes jį pagaminsime</label>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+    <div class="row center">
+      <a class=" modal-action modal-close btn waves-effect waves-light btn amber darken-4">Pateikti Užklausą</a>
+    </div>
   </div>
 
 
@@ -144,9 +181,9 @@
           <ul>
             <!-- turi veikt skambinimas ir el pastas -->
             <li>Laisvės pr. 60, Vilnius</li>
-            <li>Tel: +37065669099</li>
+            <li><a class="black-text" href="callto:+37065669099">Tel: +37065669099</a></li>
             <li><a class="black-text" href="http://www.guobosbaldai.lt">www.guobosbaldai.lt</a></li>
-            <li><a class="black-text" href="#!">info@guobosbaldai.lt</a></li>
+            <li><a class="black-text" href="mailto:info@guobosbaldai.lt">info@guobosbaldai.lt</a></li>
           </ul>
           <a class="black-text" href="https://www.facebook.com/Guobos-baldai-246022925538150/" target="_blank">
             <i  class="fa fa-facebook-official" style="font-size:36px"></i>
