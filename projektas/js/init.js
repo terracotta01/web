@@ -20,6 +20,7 @@
     $("#caption").html($(this).prop("alt"));
   });
 
+
   // close image by click
   $("#myModal").click(function(){
     $("#myModal").css({"display":"none"});
