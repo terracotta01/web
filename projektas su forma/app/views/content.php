@@ -26,14 +26,9 @@
             <label for="third">Aprašykite savo svajonių baldą, o mes jį pagaminsime</label>
           </div>
         </div>
-        <button>
-           <a class="modal-action modal-close btn waves-effect waves-light btn amber darken-4" name="submit" type="submit" id="contact-submit">Pateikti Užklausą</a>
-        </button>
+        <button class="modal-action modal-close btn waves-effect waves-light btn amber darken-4" name="submit" type="submit" id="contact-submit">Pateikti Užklausą</button>
       </form>
     </div>
   </div>
-  <div class="row center">
 
-    <a class="modal-action modal-close btn waves-effect waves-light btn amber darken-4" name="submit" type="submit" id="contact-submit">Pateikti Užklausą</a>
-  </div>
 </div>

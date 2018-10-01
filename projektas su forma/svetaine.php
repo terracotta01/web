@@ -23,16 +23,16 @@
     <div class="nav-wrapper container">
       <a id="logo-container" href="index.html" class="brand-logo" ><img src="images/logo.png" class="logo" alt="Logo"></a>
       <ul class="right hide-on-med-and-down">
-        <li><a href="virtuve.html" >Virtuvės baldai</a></li>
-        <li><a href="svetaine.html">Svetainės baldai</a></li>
-        <li><a href="sistemos.html">Slankiojančios sistemos</a></li>
+        <li><a href="virtuve.php" >Virtuvės baldai</a></li>
+        <li><a href="svetaine.php">Svetainės baldai</a></li>
+        <li><a href="sistemos.php">Slankiojančios sistemos</a></li>
         <li><a href="#apieMus">Apie mus</a></li>
         <li><a href="#kontaktai">Kontaktai</a></li>
       </ul>
       <ul id="nav-mobile" class="sidenav">
-        <li><a href="virtuve.html" >Virtuvės baldai</a></li>
-        <li><a href="svetaine.html">Svetainės baldai</a></li>
-        <li><a href="sistemos.html">Slankiojančios sistemos</a></li>
+        <li><a href="virtuve.php" >Virtuvės baldai</a></li>
+        <li><a href="svetaine.php">Svetainės baldai</a></li>
+        <li><a href="sistemos.php">Slankiojančios sistemos</a></li>
         <li><a href="#apieMus">Apie mus</a></li>
         <li><a href="#kontaktai">Kontaktai</a></li>
       </ul>
@@ -112,42 +112,10 @@
     <button  id="download-button" class="btn-large waves-effect waves-light btn amber darken-4 modal-trigger orderButton" data-target="modal1"><b>Turite klausimų? Susisiekime</b></button>
   </div>
   <!-- iššokanti forma -->
+  <?php
+      include ('app/views/content.php');
+  ?>
 
-  <!-- Modal Structure -->
-  <div id="modal1" class="modal">
-    <div class="modal-content white" id="formContent" >
-      <!-- The Close Button -->
-        <span class="close">&times;</span>
-      <div class="row center black-text text-darken-2">
-        <h5><b>Užsakymo forma</b></h5>
-      </div>
-      <div class="row">
-        <form class="col s12 forma">
-          <div class="row modal-form-row">
-            <div class="input-field col s12">
-              <input id="name" type="text" class="validate">
-              <label for="name">Įrašykite savo vardą</label>
-            </div>
-          </div>
-          <div class="row">
-            <div class="input-field col s12">
-              <input id="phoneNumber" type="text" class="validate">
-              <label for="phoneNumber">Įrašykite savo telefono numerį</label>
-            </div>
-          </div>
-          <div class="row">
-            <div class="input-field col s12">
-              <textarea id="description" type="text" class="materialize-textarea validate"></textarea>
-              <label for="description">Aprašykite savo svajonių baldą, o mes jį pagaminsime</label>
-            </div>
-          </div>
-        </form>
-      </div>
-    </div>
-    <div class="row center">
-      <a class=" modal-action modal-close btn waves-effect waves-light btn amber darken-4">Pateikti Užklausą</a>
-    </div>
-  </div>
   <div class="parallax-container valign-wrapper">
     <div class="section no-pad-bot">
       <div class="container">
@@ -165,10 +133,10 @@
         <div class="col l3 s12">
           <h5 class="black-text">Nuorodos</h5>
           <ul >
-            <li ><a class="black-text" href="index.html">Pradžia</a></li>
-            <li><a class="black-text" href="virtuve.html">Virtuvės baldai</a></li>
-            <li><a class="black-text" href="svetaine.html">Svetainės baldai</a></li>
-            <li><a class="black-text" href="sistemos.html">Slankiojančios sistemos</a></li>
+            <li ><a class="black-text" href="index.php">Pradžia</a></li>
+            <li><a class="black-text" href="virtuve.php">Virtuvės baldai</a></li>
+            <li><a class="black-text" href="svetaine.php">Svetainės baldai</a></li>
+            <li><a class="black-text" href="sistemos.php">Slankiojančios sistemos</a></li>
           </ul>
         </div>
         <div  class="col l3 s12">

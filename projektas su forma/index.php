@@ -21,17 +21,17 @@
     <div class="nav-wrapper container">
       <a id="logo-container" href="index.html" class="brand-logo" ><img src="images/logo.png" class="logo" alt="Logo"></a>
       <ul class="right hide-on-med-and-down">
-        <li><a href="virtuve.html" >Virtuvės baldai</a></li>
-        <li><a href="svetaine.html">Svetainės baldai</a></li>
-        <li><a href="sistemos.html">Slankiojančios sistemos</a></li>
+        <li><a href="virtuve.php" >Virtuvės baldai</a></li>
+        <li><a href="svetaine.php">Svetainės baldai</a></li>
+        <li><a href="sistemos.php">Slankiojančios sistemos</a></li>
         <li><a href="#apieMus">Apie mus</a></li>
         <li><a href="#kontaktai">Kontaktai</a></li>
       </ul>
 
       <ul id="nav-mobile" class="sidenav">
-        <li><a href="virtuve.html" >Virtuvės baldai</a></li>
-        <li><a href="svetaine.html">Svetainės baldai</a></li>
-        <li><a href="sistemos.html">Slankiojančios sistemos</a></li>
+        <li><a href="virtuve.php" >Virtuvės baldai</a></li>
+        <li><a href="svetaine.php">Svetainės baldai</a></li>
+        <li><a href="sistemos.php">Slankiojančios sistemos</a></li>
         <li><a href="#apieMus">Apie mus</a></li>
         <li><a href="#kontaktai">Kontaktai</a></li>
       </ul>
@@ -67,21 +67,21 @@
         <div class="col s12 m4">
           <div  class="icon-block">
             <h2  class="center black-text" ><i class="material-icons" >kitchen</i></h2>
-            <h5  class="center" ><a href="virtuve.html" class="black-text">Virtuvės baldai</a></h5>
+            <h5  class="center" ><a href="virtuve.php" class="black-text">Virtuvės baldai</a></h5>
             <p class="light"> Jūsų virtuvė maža? O gal bendroje erdvėje su svetaine? Virtuvė turi būti ir jauki, ir funkcionali. Pasiūlysime, kaip jūsų virtuvę paversti erdve, kurioje malonu ir gaminti, ir leisti laiką su artimaisiais.</p>
           </div>
         </div>
         <div class="col s12 m4">
           <div class="icon-block">
             <h2 class="center  black-text"><i class="material-icons">weekend</i></h2>
-            <h5 class="center"><a href="svetaine.html" class="black-text">Svetainės baldai</a></h5>
+            <h5 class="center"><a href="svetaine.php" class="black-text">Svetainės baldai</a></h5>
             <p class="light">Jūsų svetainė turėtų būti viena patogiausių vietų namuose. Tai vieta, kur susirenka šeima ir draugai, o tuo pačiu savo vietą turi rasti ir daug daiktų. Todėl svetainėje svarbu ne tik patogiai prisėsti, bet efektyviai išnaudoti erdvę.
           </div>
         </div>
         <div class="col s12 m4">
           <div class="icon-block">
             <h2 class="center black-text"><i class="material-icons">business</i></h2>
-            <h5 class="center"><a href="sistemos.html" class="black-text">Slankiojančios sistemos</a></h5>
+            <h5 class="center"><a href="sistemos.php" class="black-text">Slankiojančios sistemos</a></h5>
             <p class="light">Namuose turi būti patogu, todėl kasdieniai ir rečiau naudojami daiktai turi rasti savo vietą. Padėsime rasti patogų, kokybišką ir tuo pačiu stilingą daiktų laikymo sprendimą.
           </div>
         </div>
@@ -142,9 +142,9 @@
           <h5 class="black-text">Nuorodos</h5>
           <ul >
             <li ><a class="black-text" href="index.html">Pradžia</a></li>
-            <li><a class="black-text" href="virtuve.html">Virtuvės baldai</a></li>
-            <li><a class="black-text" href="svetaine.html">Svetainės baldai</a></li>
-            <li><a class="black-text" href="sistemos.html">Slankiojančios sistemos</a></li>
+            <li><a class="black-text" href="virtuve.php">Virtuvės baldai</a></li>
+            <li><a class="black-text" href="svetaine.php">Svetainės baldai</a></li>
+            <li><a class="black-text" href="sistemos.php">Slankiojančios sistemos</a></li>
           </ul>
         </div>
         <div  class="col l3 s12">

@@ -13,33 +13,32 @@
   <style media="screen">
 
 
-  .text-black{
-    text-align: center;
-  }
-
   </style>
+
 </head>
 <body>
   <nav class="white" role="navigation">
     <div class="nav-wrapper container">
       <a id="logo-container" href="index.html" class="brand-logo" ><img src="images/logo.png" class="logo" alt="Logo"></a>
       <ul class="right hide-on-med-and-down">
-        <li><a href="virtuve.html" >Virtuvės baldai</a></li>
-        <li><a href="svetaine.html">Svetainės baldai</a></li>
-        <li><a href="sistemos.html">Slankiojančios sistemos</a></li>
+        <li><a href="virtuve.php" >Virtuvės baldai</a></li>
+        <li><a href="svetaine.php">Svetainės baldai</a></li>
+        <li><a href="sistemos.php">Slankiojančios sistemos</a></li>
         <li><a href="#apieMus">Apie mus</a></li>
         <li><a href="#kontaktai">Kontaktai</a></li>
       </ul>
+
       <ul id="nav-mobile" class="sidenav">
-        <li><a href="virtuve.html" >Virtuvės baldai</a></li>
-        <li><a href="svetaine.html">Svetainės baldai</a></li>
-        <li><a href="sistemos.html">Slankiojančios sistemos</a></li>
+        <li><a href="virtuve.php" >Virtuvės baldai</a></li>
+        <li><a href="svetaine.php">Svetainės baldai</a></li>
+        <li><a href="sistemos.php">Slankiojančios sistemos</a></li>
         <li><a href="#apieMus">Apie mus</a></li>
         <li><a href="#kontaktai">Kontaktai</a></li>
       </ul>
-      <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+      <a class="black-text" href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
     </div>
   </nav>
+
   <div class="container">
     <div class="section">
       <!-- The Modal -->
@@ -49,53 +48,55 @@
         <!-- Modal Caption (Image Text) -->
         <div id="caption"></div>
       </div>
-        <!-- Images Section -->
+        <!-- Icon Section -->
       <div class="row">
         <div class="col s12 center">
-          <h3 class="text-black" class="header center teal-text text-lighten-2">Virtuvės baldai</h3>
-            <p class="text-black">Siekdami patenkinti Jūsų  poreikius pagaminsime tiek standartinių, tiek nestandartinių virtuvės baldus, kurie bus derinami su Jūsų pasirinkta įmontuojama buitine technika. Maloniai nustebinsime praktiškomis detalėmis bei pritaikytais dekoratyviais elementais, padėsiančiais pabrėžti Jūsų virtuvės išskirtinumą. Su patogiais bei praktiškais virtuvės baldais Jūsų virtuvė taps komforto zona Jums, artimui ir svečiui.</p>
+          <br>
+          <h4>Atliktų darbų su slankiojančiomis sistemomis ir spintų pavyzdžiai </h4>
         </div>
       </div>
+
+
       <div class="row" >
         <div class="col s12 m6 l4">
           <div  class="icon-block">
             <div class="box1">
-              <img class="myImg" src="images\guobos\karpytosvirtuve\DSC03494JPG.jpg" alt="">
+              <img class="myImg" src="images/sistemos1.jpg" alt="">
             </div>
           </div>
         </div>
         <div class="col s12 m6 l4">
           <div class="icon-block">
             <div class="box1">
-              <img class="myImg" src="images\guobos\karpytosvirtuve\IMG_20180112_151626.jpg" alt="">
+              <img class="myImg" src="images/sistemos2.jpg" alt="">
             </div>
           </div>
         </div>
         <div class="col s12 m6 l4">
           <div class="icon-block">
             <div class="box1">
-              <img class="myImg" src="images\guobos\karpytosvirtuve\IMG_20180609_174920.jpg" alt="">
+              <img class="myImg" src="images/sistemos3.jpg" alt="">
             </div>
           </div>
         </div>
-        <div class="col s12 m6 l4" class="eile">
+        <div class="col s12 m6 l4">
           <div  class="icon-block">
             <div class="box1">
-              <img class="myImg" src="images/guobos/karpytosvirtuve/3.jpg" alt="">
+              <img class="myImg" src="images/sistemos4.jpg" alt="">
             </div>
           </div>
         </div>
         <div class="col s12 m6 l4">
           <div class="icon-block">
             <div class="box1">
-              <img class="myImg" src="images/guobos/karpytosvirtuve/4.jpg" alt="">
+              <img class="myImg" src="images/sistemos5.jpg" alt="">
             </div>
           </div>
         </div>
         <div class="col s12 m6 l4">
           <div class="icon-block">
             <div class="box1">
-              <img class="myImg" src="images/guobos/karpytosvirtuve/5.jpg" alt="">
+              <img class="myImg" src="images/sistemos6.jpg" alt="">
             </div>
           </div>
         </div>
@@ -121,49 +122,14 @@
   </div>
   <!-- iššokanti forma -->
 
-  <!-- Modal Structure -->
-  <div id="modal1" class="modal">
-    <div class="modal-content white" id="formContent" >
-      <!-- The Close Button -->
-        <span class="close">&times;</span>
-      <div class="row center black-text text-darken-2">
-        <h5><b>Užsakymo forma</b></h5>
-      </div>
-      <div class="row">
-        <form class="col s12 forma">
-          <div class="row modal-form-row">
-            <div class="input-field col s12">
-              <input id="name" type="text" class="validate">
-              <label for="name">Įrašykite savo vardą</label>
-            </div>
-          </div>
-          <div class="row">
-            <div class="input-field col s12">
-              <input id="phoneNumber" type="text" class="validate">
-              <label for="phoneNumber">Įrašykite savo telefono numerį</label>
-            </div>
-          </div>
-          <div class="row">
-            <div class="input-field col s12">
-              <textarea id="description" type="text" class="materialize-textarea validate"></textarea>
-              <label for="description">Aprašykite savo svajonių baldą, o mes jį pagaminsime</label>
-            </div>
-          </div>
-        </form>
-      </div>
-    </div>
-    <div class="row center">
-      <a class=" modal-action modal-close btn waves-effect waves-light btn amber darken-4">Pateikti Užklausą</a>
-    </div>
-  </div>
+  <?php
+      include ('app/views/content.php');
+  ?>
 
   <div class="parallax-container valign-wrapper">
-    <div class="section no-pad-bot">
-      <div class="container">
-      </div>
-    </div>
-    <div class="parallax"><img src="images/sistemos.jpg" alt="Unsplashed background img 3"></div>
+    <div class="parallax"><img src="images/sistemos7.jpg" alt="Unsplashed background img 3"></div>
   </div>
+
   <footer class="page-footer teal brown lighten-5 black-text">
     <div  class="container">
       <div  class="row">
@@ -174,10 +140,10 @@
         <div class="col l3 s12">
           <h5 class="black-text">Nuorodos</h5>
           <ul >
-            <li ><a class="black-text" href="index.html">Pradžia</a></li>
-            <li><a class="black-text" href="virtuve.html">Virtuvės baldai</a></li>
-            <li><a class="black-text" href="svetaine.html">Svetainės baldai</a></li>
-            <li><a class="black-text" href="sistemos.html">Slankiojančios sistemos</a></li>
+            <li ><a class="black-text" href="index.php">Pradžia</a></li>
+            <li><a class="black-text" href="virtuve.php">Virtuvės baldai</a></li>
+            <li><a class="black-text" href="svetaine.php">Svetainės baldai</a></li>
+            <li><a class="black-text" href="sistemos.php">Slankiojančios sistemos</a></li>
           </ul>
         </div>
         <div  class="col l3 s12">
@@ -188,7 +154,12 @@
             <li><a class="black-text" href="http://www.guobosbaldai.lt">www.guobosbaldai.lt</a></li>
             <li><a class="black-text" href="mailto:info@guobosbaldai.lt">info@guobosbaldai.lt</a></li>
           </ul>
-          <p class="black-text" class="social"><i class="fa fa-facebook-official" style="font-size:36px"></i><i class="fa fa-twitter-square" style="font-size:36px"></i></p>
+          <a class="black-text" href="https://www.facebook.com/Guobos-baldai-246022925538150/" target="_blank">
+            <i  class="fa fa-facebook-official" style="font-size:36px"></i>
+          </a>
+          <a class="black-text" href="https://twitter.com/" target="_blank">
+            <i class="fa fa-twitter-square" style="font-size:36px"></i>
+          </a>
         </div>
       </div>
     </div>
@@ -198,8 +169,11 @@
       </div>
     </div>
   </footer>
+
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script src="js/materialize.js"></script>
   <script src="js/init.js"></script>
+
+
   </body>
 </html>
