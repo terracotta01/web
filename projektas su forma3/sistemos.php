@@ -3,7 +3,7 @@
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
-  <title>Parallax Template - Materialize</title>
+  <title>Guobos baldai - sistemos</title>
 
   <!-- CSS  -->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -11,67 +11,8 @@
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <style media="screen">
-  * {box-sizing:border-box}
-
-/* Slideshow container */
-.slideshow-container {
-  display: none;
-  max-width: 1000px;
-  position: relative;
-  margin: auto;
-}
-
-/* Hide the images by default */
-.mySlides {
-    display: none;
-}
-
-/* Next & previous buttons */
-.prev, .next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  margin-top: -22px;
-  padding: 16px;
-  color: white;
-  font-weight: bold;
-  font-size: 50px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-}
-
-/* Position the "next button" to the right */
-.next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
-}
-
-/* On hover, add a black background color with a little bit see-through */
-.prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
-}
-
-/* Fading animation */
-.fade {
-  -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
-  animation-name: fade;
-  animation-duration: 1.5s;
-}
-
-@-webkit-keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
-}
-
-@keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
-}
 
   </style>
-
 </head>
 <body>
   <nav class="white" role="navigation">
@@ -95,10 +36,8 @@
       <a class="black-text" href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
     </div>
   </nav>
-
   <div class="container">
     <div class="section">
-
         <!-- Icon Section -->
       <div class="row">
         <div class="col s12 center">
@@ -155,54 +94,14 @@
         <!-- Modal Content (The Image)-->
         <!-- The Close Button -->
         <span class="close">&times;</span>
-
-        <img class="slideshow-container" id="img01">
+        <input type="text" id="imageNumber" value="" hidden>
         <!-- Modal Caption (Image Text) -->
         <!-- <div id="caption"></div>-->
-        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-        <a class="next" onclick="plusSlides(1)">&#10095;</a>
-      </div>
-      <div class="slideshow-container">
-          <div class="row" >
-            <div class="col s12 m6 l4" style="width:100%">
-              <div  class="mySlides fade" >
-                <div class="numbertext">1 / 6</div>
-                <img src="images/sistemos1.jpg" alt="" >
-              </div>
-            </div>
-            <div class="col s12 m6 l4" style="width:100%">
-              <div  class="mySlides fade">
-                <div class="numbertext">2 / 6</div>
-                <img src="images/sistemos2.jpg" alt="">
-              </div>
-            </div>
-            <div class="col s12 m6 l4" style="width:100%">
-              <div  class="mySlides fade">
-                <div class="numbertext">3 / 6</div>
-                <img src="images/sistemos3.jpg" alt="">
-              </div>
-            </div>
-            <div class="col s12 m6 l4" style="width:100%">
-              <div  class="mySlides fade">
-                <div class="numbertext">4 / 6</div>
-                <img src="images/sistemos4.jpg" alt="">
-              </div>
-            </div>
-            <div class="col s12 m6 l4" style="width:100%">
-              <div  class="mySlides fade">
-                <div class="numbertext">5 / 6</div>
-                <img src="images/sistemos5.jpg" alt="">
-              </div>
-            </div>
-            <div class="col s12 m6 l4" style="width:100%">
-              <div  class="mySlides fade">
-                <div class="numbertext">6 / 6</div>
-                <img src="images/sistemos6.jpg" alt="">
-              </div>
-            </div>
-
-          </div>
+        <a class="prev" id="back" >&#10094;</a>
+        <div class="box2">
         </div>
+        <a class="next" id="forward" >&#10095;</a>
+      </div>
       <div class="row">
         <div class="col s12 center">
           <table >
@@ -276,34 +175,6 @@
   <script src="js/materialize.js"></script>
   <script src="js/init.js"></script>
   <script type="text/javascript">
-      $(".myImg").click(function(){
-        $("#myModal").css({"display":"block"});
-        $(".slideshow-container").css({"display":"block"});
-        $("#img01").prop("src", $(this).prop("src"));
-        $("#caption").html($(this).prop("alt"));
-      
-      });
-
-      var slideIndex = 1;
-      showSlides(slideIndex);
-
-      // Next/previous controls
-      function plusSlides(n) {
-      showSlides(slideIndex += n);
-      }
-
-      function showSlides(n) {
-      var i;
-      var slides = document.getElementsByClassName("mySlides");
-
-      if (n > slides.length) {slideIndex = 1}
-      if (n < 1) {slideIndex = slides.length}
-      for (i = 0; i < slides.length; i++) {
-          slides[i].style.display = "none";
-      }
-
-      slides[slideIndex-1].style.display = "block";
-      }
 
   </script>
 

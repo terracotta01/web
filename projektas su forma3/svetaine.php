@@ -41,14 +41,6 @@
   </nav>
   <div class="container">
     <div class="section">
-      <!-- The Modal -->
-      <div id="myModal" class="modal">
-        <!-- Modal Content (The Image) -->
-        <img class="modal-content" id="img01">
-        <!-- Modal Caption (Image Text) -->
-        <div id="caption"></div>
-      </div>
-        <!-- Images Section -->
       <div class="row">
         <div class="col s12 center">
           <h3 class="text-black" class="header center teal-text text-lighten-2">Svetainės baldai</h3>
@@ -59,38 +51,58 @@
         <div class="col s12 m6 l4">
           <div  class="icon-block">
             <div class="box1">
-              <img class="myImg" src="images\guobos\svetaine\DSC03582JPG.jpg" alt="">
+              <img class="myImg" src="images\svetaine1.jpg" alt="">
             </div>
           </div>
         </div>
         <div class="col s12 m6 l4">
           <div class="icon-block">
             <div class="box1">
-              <img class="myImg" src="images\guobos\svetaine\DSC01874JPG.jpg" alt="">
+              <img class="myImg" src="images\svetaine2.jpg" alt="">
             </div>
           </div>
         </div>
         <div class="col s12 m6 l4" class="eile">
           <div  class="icon-block">
             <div class="box1">
-              <img class="myImg" src="images/guobos/svetaine/svetaine4.jpg" alt="">
+              <img class="myImg" src="images/svetaine3.jpg" alt="">
             </div>
           </div>
         </div>
         <div class="col s12 m6 l4">
           <div class="icon-block">
             <div class="box1">
-              <img class="myImg" src="images/guobos/svetaine/svetaine5.jpg" alt="">
+              <img class="myImg" src="images/svetaine4.jpg" alt="">
             </div>
           </div>
         </div>
         <div class="col s12 m6 l4">
           <div class="icon-block">
             <div class="box1">
-              <img class="myImg" src="images/guobos/svetaine/svetaine6.jpg" alt="">
+              <img class="myImg" src="images/svetaine5.jpg" alt="">
             </div>
           </div>
         </div>
+        <div class="col s12 m6 l4">
+          <div class="icon-block">
+            <div class="box1">
+              <img class="myImg" src="images/svetaine6.jpg" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- The Modal -->
+      <div id="myModal" class="modal">
+        <!-- Modal Content (The Image)-->
+        <!-- The Close Button -->
+        <span class="close">&times;</span>
+        <input type="text" id="imageNumber" value="" hidden>
+        <!-- Modal Caption (Image Text) -->
+        <!-- <div id="caption"></div>-->
+        <a class="prev" id="back" >&#10094;</a>
+        <div class="boxSvetaine">
+        </div>
+        <a class="next" id="forward" >&#10095;</a>
       </div>
       <div class="row">
         <div class="col s12 center">
@@ -160,5 +172,14 @@
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script src="js/materialize.js"></script>
   <script src="js/init.js"></script>
+  <script type="text/javascript">
+  function changeImage(imageNumber) {
+    $(".boxSvetaine").empty();
+    var img = $("<img />");
+    img.prop("src", "images/svetaine" + imageNumber + ".jpg");
+    $(".boxSvetaine").append(img);
+  };
+
+  </script>
   </body>
 </html>

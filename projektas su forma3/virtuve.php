@@ -42,13 +42,7 @@
   </nav>
   <div class="container">
     <div class="section">
-      <!-- The Modal -->
-      <div id="myModal" class="modal">
-        <!-- Modal Content (The Image) -->
-        <img class="modal-content" id="img01">
-        <!-- Modal Caption (Image Text) -->
-        <div id="caption"></div>
-      </div>
+
         <!-- Images Section -->
       <div class="row">
         <div class="col s12 center">
@@ -60,45 +54,58 @@
         <div class="col s12 m6 l4">
           <div  class="icon-block">
             <div class="box1">
-              <img class="myImg" src="images\guobos\karpytosvirtuve\DSC03494JPG.jpg" alt="">
+              <img class="myImg" src="images\virtuve1.jpg" alt="">
             </div>
           </div>
         </div>
         <div class="col s12 m6 l4">
           <div class="icon-block">
             <div class="box1">
-              <img class="myImg" src="images\guobos\karpytosvirtuve\IMG_20180112_151626.jpg" alt="">
+              <img class="myImg" src="images/virtuve2.jpg" alt="">
             </div>
           </div>
         </div>
         <div class="col s12 m6 l4">
           <div class="icon-block">
             <div class="box1">
-              <img class="myImg" src="images\guobos\karpytosvirtuve\IMG_20180609_174920.jpg" alt="">
+              <img class="myImg" src="images/virtuve3.jpg" alt="">
             </div>
           </div>
         </div>
         <div class="col s12 m6 l4" class="eile">
           <div  class="icon-block">
             <div class="box1">
-              <img class="myImg" src="images/guobos/karpytosvirtuve/3.jpg" alt="">
+              <img class="myImg" src="images/virtuve4.jpg" alt="">
             </div>
           </div>
         </div>
         <div class="col s12 m6 l4">
           <div class="icon-block">
             <div class="box1">
-              <img class="myImg" src="images/guobos/karpytosvirtuve/4.jpg" alt="">
+              <img class="myImg" src="images/virtuve5.jpg" alt="">
             </div>
           </div>
         </div>
         <div class="col s12 m6 l4">
           <div class="icon-block">
             <div class="box1">
-              <img class="myImg" src="images/guobos/karpytosvirtuve/5.jpg" alt="">
+              <img class="myImg" src="images/virtuve6.jpg" alt="">
             </div>
           </div>
         </div>
+      </div>
+      <!-- The Modal -->
+      <div id="myModal" class="modal">
+        <!-- Modal Content (The Image)-->
+        <!-- The Close Button -->
+        <span class="close">&times;</span>
+        <input type="text" id="imageNumber" value="" hidden>
+        <!-- Modal Caption (Image Text) -->
+        <!-- <div id="caption"></div>-->
+        <a class="prev" id="back" >&#10094;</a>
+        <div class="boxVirtuve">
+        </div>
+        <a class="next" id="forward" >&#10095;</a>
       </div>
       <div class="row">
         <div class="col s12 center">
@@ -168,5 +175,14 @@
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script src="js/materialize.js"></script>
   <script src="js/init.js"></script>
+  <script type="text/javascript">
+  function changeImage(imageNumber) {
+    $(".boxVirtuve").empty();
+    var img = $("<img />");
+    img.prop("src", "images/virtuve" + imageNumber + ".jpg");
+    $(".boxVirtuve").append(img);
+  };
+
+  </script>
   </body>
 </html>
