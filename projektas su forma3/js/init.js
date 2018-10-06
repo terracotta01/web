@@ -8,24 +8,16 @@
 })(jQuery); // end of jQuery name space
 
 // floating action button
-
   $(document).ready(function(){
     $('.fixed-action-btn').floatingActionButton();
   });
-
-
-
+// modal
   $(".myImg").click(function(){
     $("#myModal").css({"display":"block"});
-
     $("#imageNumber").val(1);
-
-
     var currentImage = $(this).prop("id");
     var currentInt = parseInt(currentImage[8])
-    console.log(currentInt);
     changeImage(currentInt);
-
   });
 
 $("#forward").click(function(){
@@ -33,7 +25,6 @@ $("#forward").click(function(){
   number++;
   if (number>6) {
     $("#forward").css({"display":"none"});
-    
   } else {
     $("#imageNumber").val(number);
       changeImage(number);
@@ -45,7 +36,6 @@ $("#back").click(function(){
   number--;
   if (number<1) {
     $("#back").css({"display":"none"});
-
   } else{
     $("#imageNumber").val(number);
       changeImage(number);
@@ -53,24 +43,28 @@ $("#back").click(function(){
 });
 
 function changeImage(imageNumber) {
-
   $(".box2").empty();
   var img = $("<img />");
   img.prop("src", "images/sistemos" + imageNumber + ".jpg");
   $(".box2").append(img);
 };
 
-// close image by click
-// $("#myModal").click(function(){
-//   $("#myModal").css({"display":"none"});
-// });
+$(".close").click(function(){
+  $("#myModal").css({"display":"none"});
+  $(".box2").empty();
+  $("#forward").css({"display":"block"});
+  $("#back").css({"display":"block"});
+});
 
 // close image by click
 // $("#myModal").click(function(){
 //   $("#myModal").css({"display":"none"});
 // });
 
-
+// close image by click
+// $("#myModal").click(function(){
+//   $("#myModal").css({"display":"none"});
+// });
 
     // $(".myImg").click(function(){
     //   $("#myModal").css({"display":"block"});
@@ -111,9 +105,9 @@ function changeImage(imageNumber) {
   //   $("#myModal").css({"display":"none"});
   // });
 
-  $(".close").click(function(){
-    $("#myModal").css({"display":"none"});
-  });
+  // $(".close").click(function(){
+  //   $("#myModal").css({"display":"none"});
+  // });
 
   $(".orderButton").click(function(){
     $("#modal1").css({"display":"block"});
