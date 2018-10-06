@@ -13,44 +13,99 @@
     $('.fixed-action-btn').floatingActionButton();
   });
 
+
+
   $(".myImg").click(function(){
     $("#myModal").css({"display":"block"});
+
     $("#imageNumber").val(1);
-    changeImage(1);
+
+
+    var currentImage = $(this).prop("id");
+    var currentInt = parseInt(currentImage[8])
+    console.log(currentInt);
+    changeImage(currentInt);
+
   });
 
-  $(".close").click(function(){
-    $("#myModal").css({"display":"none"});
-  });
+$("#forward").click(function(){
+  var number = Number($("#imageNumber").val());
+  number++;
+  if (number>6) {
+    $("#forward").css({"display":"none"});
+    
+  } else {
+    $("#imageNumber").val(number);
+      changeImage(number);
+  }
+});
 
-  $("#forward").click(function(){
-    var number = Number($("#imageNumber").val());
-    number++;
-    if (number>6) {
-      $("#forward").css({"display":"none"});
-    } else {
-      $("#imageNumber").val(number);
-        changeImage(number);
-    }
-  });
+$("#back").click(function(){
+  var number = Number($("#imageNumber").val());
+  number--;
+  if (number<1) {
+    $("#back").css({"display":"none"});
 
-  $("#back").click(function(){
-    var number = Number($("#imageNumber").val());
-    number--;
-    if (number<1) {
-      $("#back").css({"display":"none"});
-    } else{
-      $("#imageNumber").val(number);
-        changeImage(number);
-    }
-  });
+  } else{
+    $("#imageNumber").val(number);
+      changeImage(number);
+  }
+});
 
-  function changeImage(imageNumber) {
-    $(".box2").empty();
-    var img = $("<img />");
-    img.prop("src", "images/sistemos" + imageNumber + ".jpg");
-    $(".box2").append(img);
-  };
+function changeImage(imageNumber) {
+
+  $(".box2").empty();
+  var img = $("<img />");
+  img.prop("src", "images/sistemos" + imageNumber + ".jpg");
+  $(".box2").append(img);
+};
+
+// close image by click
+// $("#myModal").click(function(){
+//   $("#myModal").css({"display":"none"});
+// });
+
+// close image by click
+// $("#myModal").click(function(){
+//   $("#myModal").css({"display":"none"});
+// });
+
+
+
+    // $(".myImg").click(function(){
+    //   $("#myModal").css({"display":"block"});
+    //   $("#imageNumber").val(1);
+    //   changeImage(1);
+    // });
+
+  // $("#forward").click(function(){
+  //   var number = Number($("#imageNumber").val());
+  //   number++;
+  //   if (number>6) {
+  //     $("#forward").css({"display":"none"});
+  //   } else {
+  //     $("#imageNumber").val(number);
+  //       changeImage(number);
+  //   }
+  // });
+
+  // $("#back").click(function(){
+  //   var number = Number($("#imageNumber").val());
+  //   number--;
+  //   if (number<1) {
+  //     $("#back").css({"display":"none"});
+  //   } else{
+  //     $("#imageNumber").val(number);
+  //       changeImage(number);
+  //   }
+  // });
+
+  // function changeImage(imageNumber) {
+  //   $(".box2").empty();
+  //   var img = $("<img />");
+  //   img.prop("src", "images/sistemos" + imageNumber + ".jpg");
+  //   $(".box2").append(img);
+  // };
   // close image by click
   // $("#myModal").click(function(){
   //   $("#myModal").css({"display":"none"});

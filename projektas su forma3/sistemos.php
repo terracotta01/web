@@ -49,42 +49,42 @@
         <div class="col s12 m6 l4">
           <div  class="icon-block">
             <div class="box1">
-              <img class="myImg" src="images/sistemos1.jpg" alt="">
+              <img id="sistemos1" class="myImg" src="images/sistemos1.jpg" alt="">
             </div>
           </div>
         </div>
         <div class="col s12 m6 l4">
           <div class="icon-block">
             <div class="box1">
-              <img class="myImg" src="images/sistemos2.jpg" alt="">
+              <img id="sistemos2" class="myImg" src="images/sistemos2.jpg" alt="">
             </div>
           </div>
         </div>
         <div class="col s12 m6 l4">
           <div class="icon-block">
             <div class="box1">
-              <img class="myImg" src="images/sistemos3.jpg" alt="">
+              <img  id="sistemos3" class="myImg" src="images/sistemos3.jpg" alt="">
             </div>
           </div>
         </div>
         <div class="col s12 m6 l4">
           <div  class="icon-block">
             <div class="box1">
-              <img class="myImg" src="images/sistemos4.jpg" alt="">
+              <img  id="sistemos4" class="myImg" src="images/sistemos4.jpg" alt="">
             </div>
           </div>
         </div>
         <div class="col s12 m6 l4">
           <div class="icon-block">
             <div class="box1">
-              <img class="myImg" src="images/sistemos5.jpg" alt="">
+              <img id="sistemos5" class="myImg" src="images/sistemos5.jpg" alt="">
             </div>
           </div>
         </div>
         <div class="col s12 m6 l4">
           <div class="icon-block">
             <div class="box1">
-              <img class="myImg" src="images/sistemos6.jpg" alt="">
+              <img id="sistemos6" class="myImg" src="images/sistemos6.jpg" alt="">
             </div>
           </div>
         </div>
