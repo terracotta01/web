@@ -15,42 +15,42 @@
         <div class="col s12 m6 l4">
           <div  class="icon-block">
             <div class="box1">
-              <img id="img1" class="myImg" src="images\virtuve1.jpg" alt="">
+              <img id="virtuves1" class="myImg" src="images\virtuve1.jpg" alt="">
             </div>
           </div>
         </div>
         <div class="col s12 m6 l4">
           <div class="icon-block">
             <div class="box1">
-              <img id="img1" class="myImg" src="images/virtuve2.jpg" alt="">
+              <img id="virtuves2" class="myImg" src="images/virtuve2.jpg" alt="">
             </div>
           </div>
         </div>
         <div class="col s12 m6 l4">
           <div class="icon-block">
             <div class="box1">
-              <img id="img1" class="myImg" src="images/virtuve3.jpg" alt="">
+              <img id="virtuves3" class="myImg" src="images/virtuve3.jpg" alt="">
             </div>
           </div>
         </div>
         <div class="col s12 m6 l4" class="eile">
           <div  class="icon-block">
             <div class="box1">
-              <img id="img1" class="myImg" src="images/virtuve4.jpg" alt="">
+              <img id="virtuves4" class="myImg" src="images/virtuve4.jpg" alt="">
             </div>
           </div>
         </div>
         <div class="col s12 m6 l4">
           <div class="icon-block">
             <div class="box1">
-              <img id="img1" class="myImg" src="images/virtuve5.jpg" alt="">
+              <img id="virtuves5" class="myImg" src="images/virtuve5.jpg" alt="">
             </div>
           </div>
         </div>
         <div class="col s12 m6 l4">
           <div class="icon-block">
             <div class="box1">
-              <img id="img1" class="myImg" src="images/virtuve6.jpg" alt="">
+              <img id="virtuves6" class="myImg" src="images/virtuve6.jpg" alt="">
             </div>
           </div>
         </div>
@@ -59,7 +59,7 @@
       <div id="myModal" class="modal">
         <!-- Modal Content (The Image)-->
         <!-- The Close Button -->
-        <span class="close">&times;</span>
+        <span class="close1">&times;</span>
         <input type="text" id="imageNumber" value="" hidden>
         <!-- Modal Caption (Image Text) -->
         <!-- <div id="caption"></div>-->
@@ -104,3 +104,21 @@
   <?php
       include_once 'footer.php';
     ?>
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+  <script type="text/javascript">
+  function changeImage(imageNumber) {
+    $(".boxVirtuve").empty();
+    var img = $("<img />");
+    img.prop("src", "images/virtuve" + imageNumber + ".jpg");
+    $(".boxVirtuve").append(img);
+  };
+
+
+
+
+
+  </script>
+  </body>
+</html>

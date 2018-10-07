@@ -16,42 +16,42 @@
         <div class="col s12 m6 l4">
           <div  class="icon-block">
             <div class="box1">
-              <img id="img1" class="myImg" src="images/sistemos1.jpg" alt="">
+              <img id="sistemos1" class="myImg" src="images/sistemos1.jpg" alt="">
             </div>
           </div>
         </div>
         <div class="col s12 m6 l4">
           <div class="icon-block">
             <div class="box1">
-              <img id="img2" class="myImg" src="images/sistemos2.jpg" alt="">
+              <img id="sistemos2" class="myImg" src="images/sistemos2.jpg" alt="">
             </div>
           </div>
         </div>
         <div class="col s12 m6 l4">
           <div class="icon-block">
             <div class="box1">
-              <img  id="img3" class="myImg" src="images/sistemos3.jpg" alt="">
+              <img  id="sistemos3" class="myImg" src="images/sistemos3.jpg" alt="">
             </div>
           </div>
         </div>
         <div class="col s12 m6 l4">
           <div  class="icon-block">
             <div class="box1">
-              <img  id="img4" class="myImg" src="images/sistemos4.jpg" alt="">
+              <img  id="sistemos4" class="myImg" src="images/sistemos4.jpg" alt="">
             </div>
           </div>
         </div>
         <div class="col s12 m6 l4">
           <div class="icon-block">
             <div class="box1">
-              <img id="img5" class="myImg" src="images/sistemos5.jpg" alt="">
+              <img id="sistemos5" class="myImg" src="images/sistemos5.jpg" alt="">
             </div>
           </div>
         </div>
         <div class="col s12 m6 l4">
           <div class="icon-block">
             <div class="box1">
-              <img id="img6" class="myImg" src="images/sistemos6.jpg" alt="">
+              <img id="sistemos6" class="myImg" src="images/sistemos6.jpg" alt="">
             </div>
           </div>
         </div>
@@ -60,7 +60,7 @@
       <div id="myModal" class="modal">
         <!-- Modal Content (The Image)-->
         <!-- The Close Button -->
-        <span class="close">&times;</span>
+        <span class="close1 ">&times;</span>
         <input type="text" id="imageNumber" value="" hidden>
         <!-- Modal Caption (Image Text) -->
         <!-- <div id="caption"></div>-->
@@ -101,3 +101,18 @@
   <?php
       include_once 'footer.php';
     ?>
+
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+  <script type="text/javascript">
+  function changeImage(imageNumber) {
+    $(".box2").empty();
+    var img = $("<img />");
+    img.prop("src", "images/sistemos" + imageNumber + ".jpg");
+    $(".box2").append(img);
+  };
+  </script>
+
+  </body>
+</html>
