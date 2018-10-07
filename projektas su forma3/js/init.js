@@ -16,7 +16,7 @@
     $("#myModal").css({"display":"block"});
     $("#imageNumber").val(1);
     var currentImage = $(this).prop("id");
-    var currentInt = parseInt(currentImage[8])
+    var currentInt = parseInt(currentImage[3])
     changeImage(currentInt);
   });
 
@@ -47,6 +47,20 @@ function changeImage(imageNumber) {
   var img = $("<img />");
   img.prop("src", "images/sistemos" + imageNumber + ".jpg");
   $(".box2").append(img);
+};
+
+function changeImage(imageNumber) {
+  $(".boxVirtuve").empty();
+  var img = $("<img />");
+  img.prop("src", "images/virtuve" + imageNumber + ".jpg");
+  $(".boxVirtuve").append(img);
+};
+
+function changeImage(imageNumber) {
+  $(".boxSvetaine").empty();
+  var img = $("<img />");
+  img.prop("src", "images/svetaine" + imageNumber + ".jpg");
+  $(".boxSvetaine").append(img);
 };
 
 $(".close").click(function(){
