@@ -105,6 +105,7 @@
   <script src="js/materialize.js"></script>
   <script src="js/init.js"></script>
   <script type="text/javascript">
+  // svetaine.php change image
   function changeImage(imageNumber) {
     $(".boxSvetaine").empty();
     var img = $("<img />");

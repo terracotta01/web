@@ -108,16 +108,13 @@
   <script src="js/materialize.js"></script>
   <script src="js/init.js"></script>
   <script type="text/javascript">
+  // virtuve.php change image
   function changeImage(imageNumber) {
     $(".boxVirtuve").empty();
     var img = $("<img />");
     img.prop("src", "images/virtuve" + imageNumber + ".jpg");
     $(".boxVirtuve").append(img);
   };
-
-
-
-
 
   </script>
   </body>

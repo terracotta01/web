@@ -15,7 +15,7 @@
         <div class="order_container">
         <div class="row center">
           <h1></h1>
-          <h4 class="header col s12 light"><b>Užsisakyk savo svajonių baldus</b></h5>
+          <h4 class="header col s12 light"><b>Užsisakyk savo svajonių baldus</b></h4>
         </div>
         <div class="row center">
 
@@ -35,21 +35,21 @@
         <div class="col s12 m4">
           <div  class="icon-block">
             <h2  class="center black-text" ><i class="material-icons" >kitchen</i></h2>
-            <h5  class="center" ><a href="virtuve.php" class="black-text">Virtuvės baldai</a></h5>
+            <h5  class="center hover" ><a href="virtuve.php" class="black-text">Virtuvės baldai</a></h5>
             <p class="light"> Jūsų virtuvė maža? O gal bendroje erdvėje su svetaine? Virtuvė turi būti ir jauki, ir funkcionali. Pasiūlysime, kaip jūsų virtuvę paversti erdve, kurioje malonu ir gaminti, ir leisti laiką su artimaisiais.</p>
           </div>
         </div>
         <div class="col s12 m4">
           <div class="icon-block">
             <h2 class="center  black-text"><i class="material-icons">weekend</i></h2>
-            <h5 class="center"><a href="svetaine.php" class="black-text">Svetainės baldai</a></h5>
+            <h5 class="center hover"><a href="svetaine.php" class="black-text">Svetainės baldai</a></h5>
             <p class="light">Jūsų svetainė turėtų būti viena patogiausių vietų namuose. Tai vieta, kur susirenka šeima ir draugai, o tuo pačiu savo vietą turi rasti ir daug daiktų. Todėl svetainėje svarbu ne tik patogiai prisėsti, bet efektyviai išnaudoti erdvę.
           </div>
         </div>
         <div class="col s12 m4">
           <div class="icon-block">
             <h2 class="center black-text"><i class="material-icons">business</i></h2>
-            <h5 class="center"><a href="sistemos.php" class="black-text">Slankiojančios sistemos</a></h5>
+            <h5 class="center hover"><a href="sistemos.php" class="black-text">Slankiojančios sistemos</a></h5>
             <p class="light">Namuose turi būti patogu, todėl kasdieniai ir rečiau naudojami daiktai turi rasti savo vietą. Padėsime rasti patogų, kokybišką ir tuo pačiu stilingą daiktų laikymo sprendimą.
           </div>
         </div>

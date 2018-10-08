@@ -20,7 +20,7 @@ p {
 }
 
 .order_container {
-  padding-top: 30px;
+  padding-top: 100px;
 }
 
 .parallax-container {
@@ -75,6 +75,15 @@ span {
   float: left;
 }
 
+@media only screen and (max-width: 700px){
+  .logo {
+      height: 55px;
+  }
+  table {
+      font-size: 10px;
+  }
+}
+
 table {
     margin-right: auto;
     margin-left: auto;
@@ -104,6 +113,11 @@ th {
 
 .myImg:hover {opacity: 0.7;}
 
+ul li a:hover {opacity: 0.7;}
+.hover:hover {opacity: 0.7;}
+.fa-facebook-official:hover {opacity: 0.7;}
+.fa-twitter-square:hover {opacity: 0.7;}
+
   /* The Modal (background) */
 .modal {
     display: none; /* Hidden by default */
@@ -121,7 +135,6 @@ th {
     max-height: 100%;
     justify-content: center;
     align-items: center;
-
 }
 
   /* Modal Content (Image) */
@@ -138,15 +151,6 @@ th {
 .box2 {
   max-height: 750px;
   max-width: 562px;
-}
-
-/* .boxVirtuve, .boxSvetaine {
-  padding-top: 90px;
-} */
-
-.box2 img, .boxVirtuve img, .boxSvetaine img{
-    /* width: 80%; */
-
 }
 
   /* Caption of Modal Image (Image Text) - Same Width as the Image */
@@ -184,44 +188,45 @@ th {
 }
 
 /* The Close Button */
-  .close, .close1 {
-     position: absolute;
-     top: 15px;
-     right: 35px;
-     color: #f1f1f1;
-     font-size: 40px;
-     font-weight: bold;
-     transition: 0.3s;
-  }
-  .close:hover,
-  .close:focus {
-     color: #bbb;
-     text-decoration: none;
-     cursor: pointer;
-  }
+.close, .close1 {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
 
-  /* Next & previous buttons */
-  #back, #forward {
-    cursor: pointer;
-    position: absolute;
-    top: 50%;
-    width: auto;
-    margin-top: -22px;
-    padding: 16px;
-    color: white;
-    font-weight: bold;
-    font-size: 50px;
-    transition: 0.6s ease;
-    border-radius: 0 3px 3px 0;
-  }
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
 
-  /* Position the "next button" to the right */
-  #forward {
-    right: 0;
-    border-radius: 3px 0 0 3px;
-  }
+/* Next & previous buttons */
+#back, #forward {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 50px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
 
-  /* On hover, add a black background color with a little bit see-through */
-  #back:hover, #forward:hover {
-    background-color: rgba(0,0,0,0.8);
-  }
+/* Position the "next button" to the right */
+#forward {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+#back:hover, #forward:hover {
+  background-color: rgba(0,0,0,0.8);
+}

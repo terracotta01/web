@@ -23,7 +23,7 @@
               <li><a class="black-text" href="http://www.guobosbaldai.lt">www.guobosbaldai.lt</a></li>
               <li><a class="black-text" href="mailto:info@guobosbaldai.lt">info@guobosbaldai.lt</a></li>
             </ul>
-            <p class="black-text" class="social"><i class="fa fa-facebook-official" style="font-size:36px"></i><i class="fa fa-twitter-square" style="font-size:36px"></i></p>
+            <p class="black-text social"><i class="fa fa-facebook-official" style="font-size:36px"></i><i class="fa fa-twitter-square" style="font-size:36px"></i></p>
           </div>
         </div>
       </div>

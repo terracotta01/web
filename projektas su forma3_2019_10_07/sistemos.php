@@ -105,14 +105,5 @@
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script src="js/materialize.js"></script>
   <script src="js/init.js"></script>
-  <script type="text/javascript">
-  function changeImage(imageNumber) {
-    $(".box2").empty();
-    var img = $("<img />");
-    img.prop("src", "images/sistemos" + imageNumber + ".jpg");
-    $(".box2").append(img);
-  };
-  </script>
-
   </body>
 </html>
