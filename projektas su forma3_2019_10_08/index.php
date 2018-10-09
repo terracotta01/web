@@ -5,7 +5,7 @@
   include_once 'header.php';
 ?>
 
-
+<!-- PADARYT KAD SKAICIUOTU NE 8 INDEKSA O -1 MODALUOSE -->
 
   <div id="index-banner" class="parallax-container" >
     <div class="section no-pad-bot">

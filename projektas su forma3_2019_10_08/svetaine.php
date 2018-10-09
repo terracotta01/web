@@ -3,59 +3,56 @@
 ?>
   <div class="container">
     <div class="section">
-
-        <!-- Images Section -->
       <div class="row">
         <div class="col s12 center">
-          <h3 class="text-black" class="header center teal-text text-lighten-2">Virtuvės baldai</h3>
-            <p class="text-black">Siekdami patenkinti Jūsų  poreikius pagaminsime tiek standartinių, tiek nestandartinių virtuvės baldus, kurie bus derinami su Jūsų pasirinkta įmontuojama buitine technika. Maloniai nustebinsime praktiškomis detalėmis bei pritaikytais dekoratyviais elementais, padėsiančiais pabrėžti Jūsų virtuvės išskirtinumą. Su patogiais bei praktiškais virtuvės baldais Jūsų virtuvė taps komforto zona Jums, artimui ir svečiui.</p>
+          <h3 class="text-black" class="header center teal-text text-lighten-2">Svetainės baldai</h3>
+            <p class="text-black">Gaminant svetainės baldus mūsų naudojamos technologijos leidžia patenkinti net pačių išrankiausių klientų poreikius. Baldų projektavime skiriamas itin didelis dėmesys net menkiausioms detalėms. Gaminame įvairius, tinkamiausius Jūsų interjerui baldus. Visi svetainės baldai patogūs, funkcionalūs ir dailūs.</p>
         </div>
       </div>
       <div class="row" >
         <div class="col s12 m6 l4">
           <div  class="icon-block">
             <div class="box1">
-              <img id="virtuves1" class="myImg" src="images\virtuve1.jpg" alt="">
+              <img id="svetaine1" class="myImg" src="images\svetaine1.jpg" alt="">
             </div>
           </div>
         </div>
         <div class="col s12 m6 l4">
           <div class="icon-block">
             <div class="box1">
-              <img id="virtuves2" class="myImg" src="images/virtuve2.jpg" alt="">
-            </div>
-          </div>
-        </div>
-        <div class="col s12 m6 l4">
-          <div class="icon-block">
-            <div class="box1">
-              <img id="virtuves3" class="myImg" src="images/virtuve3.jpg" alt="">
+              <img id="svetaine2" class="myImg" src="images\svetaine2.jpg" alt="">
             </div>
           </div>
         </div>
         <div class="col s12 m6 l4" class="eile">
           <div  class="icon-block">
             <div class="box1">
-              <img id="virtuves4" class="myImg" src="images/virtuve4.jpg" alt="">
+              <img id="svetaine3" class="myImg" src="images/svetaine3.jpg" alt="">
             </div>
           </div>
         </div>
         <div class="col s12 m6 l4">
           <div class="icon-block">
             <div class="box1">
-              <img id="virtuves5" class="myImg" src="images/virtuve5.jpg" alt="">
+              <img id="svetaine4" class="myImg" src="images/svetaine4.jpg" alt="">
             </div>
           </div>
         </div>
         <div class="col s12 m6 l4">
           <div class="icon-block">
             <div class="box1">
-              <img id="virtuves6" class="myImg" src="images/virtuve6.jpg" alt="">
+              <img id="svetaine5" class="myImg" src="images/svetaine5.jpg" alt="">
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m6 l4">
+          <div class="icon-block">
+            <div class="box1">
+              <img id="svetaine6" class="myImg" src="images/svetaine6.jpg" alt="">
             </div>
           </div>
         </div>
       </div>
-      <!-- The Modal -->
       <div id="myModal" class="modal">
         <!-- Modal Content (The Image)-->
         <!-- The Close Button -->
@@ -64,10 +61,8 @@
         <!-- Modal Caption (Image Text) -->
         <!-- <div id="caption"></div>-->
         <a class="prev" id="back" >&#10094;</a>
-        <div class="boxVirtuve">
+        <div class="boxSvetaine">
         </div>
-        <a class="next" id="forward" >&#10095;</a>
-      </div>
         <a class="next" id="forward" >&#10095;</a>
       </div>
       <div class="row">
@@ -108,12 +103,12 @@
   <script src="js/materialize.js"></script>
   <script src="js/init.js"></script>
   <script type="text/javascript">
-  // virtuve.php change image
+  // svetaine.php change image
   function changeImage(imageNumber) {
-    $(".boxVirtuve").empty();
+    $(".boxSvetaine").empty();
     var img = $("<img />");
-    img.prop("src", "images/virtuve" + imageNumber + ".jpg");
-    $(".boxVirtuve").append(img);
+    img.prop("src", "images/svetaine" + imageNumber + ".jpg");
+    $(".boxSvetaine").append(img);
   };
 
   </script>

@@ -23,7 +23,8 @@
               <li><a class="black-text" href="http://www.guobosbaldai.lt">www.guobosbaldai.lt</a></li>
               <li><a class="black-text" href="mailto:info@guobosbaldai.lt">info@guobosbaldai.lt</a></li>
             </ul>
-            <p class="black-text social"><i class="fa fa-facebook-official" style="font-size:36px"></i><i class="fa fa-twitter-square" style="font-size:36px"></i></p>
+            <a href="https://www.facebook.com/Guobos-baldai-246022925538150/" class="black-text social" target="_blank"><i  class="fa fa-facebook-official" style="font-size:36px" ></i></a>
+            <a href="https://twitter.com/" class="black-text social" target="_blank"><i class="fa fa-twitter-square" style="font-size:36px"></i></a>
           </div>
         </div>
       </div>

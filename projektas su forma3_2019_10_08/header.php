@@ -25,13 +25,13 @@
         <li><a href="#kontaktai">Kontaktai</a></li>
       </ul>
 
-      <ul id="nav-mobile" class="sidenav">
+      <ul id="nav-mobile" class="sidenav menu">
         <li><a href="virtuve.php" >Virtuvės baldai</a></li>
         <li><a href="svetaine.php">Svetainės baldai</a></li>
         <li><a href="sistemos.php">Slankiojančios sistemos</a></li>
-        <li><a href="#apieMus">Apie mus</a></li>
-        <li><a href="#kontaktai">Kontaktai</a></li>
+        <li class="sidenav-close"><a href="#apieMus">Apie mus</a></li>
+        <li class="sidenav-close"><a href="#kontaktai">Kontaktai</a></li>
       </ul>
-      <a class="black-text" href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+      <a  href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
     </div>
   </nav>

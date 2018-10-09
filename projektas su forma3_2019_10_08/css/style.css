@@ -6,6 +6,14 @@
  * Made By MaterializeCSS.com
  */
 
+
+
+ .sidenav{
+  width: 250px;
+  height: 260px;
+  padding-bottom: 0px;
+ }
+
 nav ul a,
 nav .brand-logo {
   color: #444;
@@ -18,6 +26,11 @@ p {
 .sidenav-trigger {
   color: #26a69a;
 }
+
+ .material-icons {
+   color: black;
+ }
+
 
 .order_container {
   padding-top: 100px;
@@ -171,6 +184,13 @@ ul li a:hover {opacity: 0.7;}
     animation-duration: 0.6s;
 }
 
+.modal-content{
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+}
+
 @keyframes zoom {
     from {transform:scale(0)}
     to {transform:scale(1)}
@@ -181,11 +201,21 @@ ul li a:hover {opacity: 0.7;}
   .box2, .boxVirtuve, .boxSvetaine {
       width: 100%;
   }
+  .modal-content{
+    width: 100%;
+    margin-top: 0px;
+  }
+  #first, #second, #third{
+    padding-bottom: 30px;
+    padding-top: 30px;
+  }
 }
 
 .fa {
   padding-right: 20px;
 }
+
+
 
 /* The Close Button */
 .close, .close1 {
