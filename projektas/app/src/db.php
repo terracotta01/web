@@ -11,12 +11,6 @@
     exit;
   }
 
-  // $sql = "SELECT * FROM klientai";
-  // $result = $mysqli->query($sql);
-  // $array = $result->fetch_assoc();
-  // var_dump($array);
-
   mysqli_query($conn,"INSERT INTO guobosklientai (vardas, email, message) VALUES('$_POST[vardas]', '$_POST[email]', '$_POST[message]')");
-
 
  ?>

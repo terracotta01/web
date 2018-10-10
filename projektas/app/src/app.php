@@ -16,7 +16,7 @@
         $autorius = 'Žinutė nuo: ' . $vardas . ', ' . $email;
         $zinute = "$message";
         mail ($to,$subject,$autorius,$zinute,$from);
-        echo "<script>alert('Dėkojame. Jūsų žinutė gauta. Netrukus susisieksime.');</script>";
+        echo "<script>alert('Dėkojame. Netrukus susisieksime.');</script>";
       }
     }
   }
