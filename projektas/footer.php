@@ -19,7 +19,7 @@
             <h5 class="black-text" id="kontaktai">Kontaktai</h5>
             <ul>
               <li>Laisvės pr. 60, Vilnius</li>
-              <li><a class="black-text" href="callto:+37065669099">Tel: +37065669099</a></li>
+              <li><a class="black-text" href="Tel:+37065669099">Tel: +37065669099</a></li>
               <li><a class="black-text" href="http://www.guobosbaldai.lt">www.guobosbaldai.lt</a></li>
               <li><a class="black-text" href="mailto:info@guobosbaldai.lt">info@guobosbaldai.lt</a></li>
             </ul>
