@@ -1,0 +1,141 @@
+body {
+  padding-top: 70px;
+}
+
+.img-thumbnail {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+/* Grayscale page */
+
+.grayscale img {
+  filter:grayscale(1);
+    -webkit-filter:grayscale(1);
+    -moz-filter:grayscale(1);
+}
+
+.grayscale img:hover{
+  filter:grayscale(0);
+    -webkit-filter:grayscale(0);
+    -moz-filter:grayscale(0);
+}
+/* Blur page */
+
+.blur img{
+  filter: blur(5px);
+    -webkit-filter:blur(5px);
+    -moz-filter:blur(5px);
+}
+
+.blur img:hover{
+  filter: blur(0px);
+    -webkit-filter:blur(0px);
+    -moz-filter:blur(0px);
+}
+
+/* sepia page */
+.sepia img{
+  filter:sepia(1);
+    -webkit-filter:sepia(1);
+    -moz-filter:sepia(1);
+}
+
+.sepia img:hover{
+  filter:sepia(0);
+    -webkit-filter:sepia(0);
+    -moz-filter:sepia(0);
+}
+
+/* invert page */
+
+.invert img {
+  filter: invert(1);
+    -webkit-filter:invert(1);
+    -moz-filter:invert(1);
+}
+
+.invert img:hover {
+  filter: invert(0);
+    -webkit-filter:invert(0);
+    -moz-filter:invert(0);
+}
+
+/* opacity page */
+.opacity img{
+  opacity:.5;
+}
+
+.opacity img:hover{
+  opacity:1;
+}
+
+/* saturate page */
+.saturate img{
+  filter: saturate(500%);
+    -webkit-filter:saturate(500%);
+    -moz-filter:saturate(500%);
+}
+
+.saturate img:hover{
+  filter: saturate(100%);
+    -webkit-filter:saturate(100%);
+    -moz-filter:saturate(100%);
+}
+
+/* contrast page */
+.contrast img{
+  filter: contrast(.5);
+  -webkit-filter:contrast(.5);
+  -moz-filter:contrast(.5);
+}
+
+.contrast img:hover{
+  filter: contrast(1);
+  -webkit-filter:contrast(1);
+  -moz-filter:contrast(1);
+}
+
+/* brightness page */
+.brightness img{
+  filter: brightness(0.5);
+  -webkit-filter:brightness(0.5);
+  -moz-filter:brightness(0.5);
+}
+
+.brightness img:hover{
+  filter: brightness(1);
+  -webkit-filter:brightness(1);
+  -moz-filter:brightness(1);
+}
+
+/* huerotate page */
+.huerotate img{
+  filter: hue-rotate(90deg);
+  -webkit-filter:hue-rotate(90deg);
+  -moz-filter:hue-rotate(90deg);
+}
+
+.huerotate img:hover{
+  filter: hue-rotate(0deg);
+  -webkit-filter:hue-rotate(0deg);
+  -moz-filter:hue-rotate(0deg);
+}
+
+/* dropshadow page */
+
+.dropshadow img{
+  filter: drop-shadow(15px 15px 10px rgba(0,0,0,0.8));
+  -webkit-filter:drop-shadow(15px 15px 10px rgba(0,0,0,0.8));
+  -moz-filter:drop-shadow(15px 15px 10px rgba(0,0,0,0.8));
+}
+
+.dropshadow img:hover{
+  filter: drop-shadow(0px 0px 0px rgba(0,0,0,0.8));
+  -webkit-filter:drop-shadow(0px 0px 0px rgba(0,0,0,0.8));
+  -moz-filter:drop-shadow(0px 0px 0px rgba(0,0,0,0.8));
+}
+
+footer {
+  margin: 50px 0;
+}
